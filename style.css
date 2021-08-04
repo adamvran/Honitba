@@ -1,29 +1,91 @@
-.red_dot {
+.red_dot_info {
   position: absolute;
-  top: 27px;
+  top: 25px;
   left: 125px;
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   background-color: red;
+}
+.popis{
+  width: 175px; 
+  background-color: white; 
+  z-index: 10; 
+  position: fixed; 
+  left: 20px; 
+  top: 20px; 
+  height: 200px;
+}
+.bod{
+  background-image: url(Mapa.jpg);
+}
+
+.posed_info{
+  width: 175px; 
+  background-color: white; 
+  z-index: 10; 
+  left: 20px; 
+  top: 20px; 
+  height: 200px;
+}
+
+.red_dot {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
 .posed1 {
   position: absolute;
+  display: inline-block;
   top: 4450px;
   left: 4075px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: red;
 }
+.posed1:hover .dropdown-content {display: block;}
 
 .posed2 {
   position: absolute;
+  display: inline-block;
   top: 3390px;
   left: 3400px;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: red;
 }
+.posed2:hover .dropdown-content {display: block;}
+
+.posed3 {
+  position: absolute;
+  display: inline-block;
+  top: 3390px;
+  left: 1190px;
+}
+.posed3:hover .dropdown-content {display: block;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: green;}
+
+
+
+
