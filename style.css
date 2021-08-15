@@ -1,11 +1,21 @@
 .red_dot_info {
   position: absolute;
-  top: 25px;
-  left: 125px;
+  top: 15px;
+  left: 140px;
   height: 30px;
   width: 30px;
   border-radius: 50%;
   background-color: red;
+}
+
+.yellow_dot_info {
+  position: absolute;
+  top: 65px;
+  left: 140px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: yellow;
 }
 .popis{
   width: 175px; 
@@ -35,6 +45,14 @@
   width: 30px;
   border-radius: 50%;
   background-color: red;
+}
+
+.yellow_dot {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: yellow;
 }
 
 .dropbtn {
@@ -68,6 +86,71 @@
   left: 1190px;
 }
 .posed3:hover .dropdown-content {display: block;}
+
+.posed4 {
+  position: absolute;
+  display: inline-block;
+  top: 1000px;
+  left: 1000px;
+}
+.posed4:hover .dropdown-content {display: block;}
+
+.posed5 {
+  position: absolute;
+  display: inline-block;
+  top: 3360px;
+  left: 950px;
+}
+.posed5:hover .dropdown-content {display: block;}
+
+.posed_fojtovske {
+  position: absolute;
+  display: inline-block;
+  top: 3670px;
+  left: 380px;
+}
+.posed_fojtovske:hover .dropdown-content {display: block;}
+
+.posed_policko {
+  position: absolute;
+  display: inline-block;
+  top: 3650px;
+  left: 160px;
+}
+.posed_policko:hover .dropdown-content {display: block;}
+
+.kazatelna1 {
+  position: absolute;
+  display: inline-block;
+  top: 3540px;
+  left: 985px;
+}
+.kazatelna1:hover .dropdown-content {display: block;}
+
+.kazatelna_fojtovske {
+  position: absolute;
+  display: inline-block;
+  top: 3420px;
+  left: 720px;
+}
+.kazatelna_fojtovske:hover .dropdown-content {display: block;}
+
+.kazatelna_fousovka {
+  position: absolute;
+  display: inline-block;
+  top: 3670px;
+  left: 500px;
+}
+.kazatelna_fousovka:hover .dropdown-content {display: block;}
+
+.kazatelna4 {
+  position: absolute;
+  display: inline-block;
+  top: 4100px;
+  left: 300px;
+}
+.kazatelna4:hover .dropdown-content {display: block;}
+
 
 .dropdown-content {
   display: none;
