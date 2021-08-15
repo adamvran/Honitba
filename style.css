@@ -87,14 +87,6 @@
 }
 .posed3:hover .dropdown-content {display: block;}
 
-.posed4 {
-  position: absolute;
-  display: inline-block;
-  top: 1000px;
-  left: 1000px;
-}
-.posed4:hover .dropdown-content {display: block;}
-
 .posed5 {
   position: absolute;
   display: inline-block;
@@ -118,6 +110,14 @@
   left: 160px;
 }
 .posed_policko:hover .dropdown-content {display: block;}
+
+.posed8 {
+  position: absolute;
+  display: inline-block;
+  top: 4235px;
+  left: 310px;
+}
+.posed8:hover .dropdown-content {display: block;}
 
 .kazatelna1 {
   position: absolute;
