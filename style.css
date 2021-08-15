@@ -130,16 +130,16 @@
 .kazatelna_fojtovske {
   position: absolute;
   display: inline-block;
-  top: 3420px;
-  left: 720px;
+  top: 3670px;
+  left: 500px;
 }
 .kazatelna_fojtovske:hover .dropdown-content {display: block;}
 
 .kazatelna_fousovka {
   position: absolute;
   display: inline-block;
-  top: 3670px;
-  left: 500px;
+  top: 3420px;
+  left: 720px;
 }
 .kazatelna_fousovka:hover .dropdown-content {display: block;}
 
